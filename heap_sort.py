@@ -1,6 +1,6 @@
 
 
-def exchange(arr, start, end):      # 将待排序列排序得到一个大堆顶
+def exchange(arr, start, end):      # 将待排序列排序得到一个大顶堆
     begin = start
     child = begin * 2 + 1      # 节点的左孩子
     while child <= end:
