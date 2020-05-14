@@ -31,7 +31,7 @@ class Stack(object):
         if self.is_empty():
             return None
         else:
-            return self.__list[0]
+            return self.__list[-1]
 
     def is_empty(self):
         """判断是否为空"""
